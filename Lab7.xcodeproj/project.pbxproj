@@ -25,6 +25,21 @@
 /* Begin PBXFileReference section */
 		52C8CD2121AB5C5500F3F749 /* Lab7 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Lab7; sourceTree = BUILT_PRODUCTS_DIR; };
 		52C8CD2421AB5C5600F3F749 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		52C8CD2B21AB5CD500F3F749 /* key_file5.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = key_file5.txt; sourceTree = "<group>"; };
+		52C8CD2C21AB5CD500F3F749 /* key_file1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = key_file1.txt; sourceTree = "<group>"; };
+		52C8CD2D21AB5CD500F3F749 /* key_file2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = key_file2.txt; sourceTree = "<group>"; };
+		52C8CD2E21AB5CD500F3F749 /* WindowsEndlines */ = {isa = PBXFileReference; lastKnownFileType = folder; path = WindowsEndlines; sourceTree = "<group>"; };
+		52C8CD2F21AB5CD600F3F749 /* file1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = file1.txt; sourceTree = "<group>"; };
+		52C8CD3021AB5CD600F3F749 /* NodeInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NodeInterface.h; sourceTree = "<group>"; };
+		52C8CD3121AB5CD600F3F749 /* check.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = check.sh; sourceTree = "<group>"; };
+		52C8CD3221AB5CD600F3F749 /* key_file4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = key_file4.txt; sourceTree = "<group>"; };
+		52C8CD3321AB5CD600F3F749 /* BSTInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSTInterface.h; sourceTree = "<group>"; };
+		52C8CD3421AB5CD600F3F749 /* file5.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = file5.txt; sourceTree = "<group>"; };
+		52C8CD3521AB5CD600F3F749 /* file4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = file4.txt; sourceTree = "<group>"; };
+		52C8CD3621AB5CD600F3F749 /* file3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = file3.txt; sourceTree = "<group>"; };
+		52C8CD3721AB5CD600F3F749 /* key_file3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = key_file3.txt; sourceTree = "<group>"; };
+		52C8CD3821AB5CD600F3F749 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		52C8CD3921AB5CD600F3F749 /* file2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = file2.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,21 @@
 			isa = PBXGroup;
 			children = (
 				52C8CD2421AB5C5600F3F749 /* main.cpp */,
+				52C8CD3321AB5CD600F3F749 /* BSTInterface.h */,
+				52C8CD3121AB5CD600F3F749 /* check.sh */,
+				52C8CD2F21AB5CD600F3F749 /* file1.txt */,
+				52C8CD3921AB5CD600F3F749 /* file2.txt */,
+				52C8CD3621AB5CD600F3F749 /* file3.txt */,
+				52C8CD3521AB5CD600F3F749 /* file4.txt */,
+				52C8CD3421AB5CD600F3F749 /* file5.txt */,
+				52C8CD2C21AB5CD500F3F749 /* key_file1.txt */,
+				52C8CD2D21AB5CD500F3F749 /* key_file2.txt */,
+				52C8CD3721AB5CD600F3F749 /* key_file3.txt */,
+				52C8CD3221AB5CD600F3F749 /* key_file4.txt */,
+				52C8CD2B21AB5CD500F3F749 /* key_file5.txt */,
+				52C8CD3021AB5CD600F3F749 /* NodeInterface.h */,
+				52C8CD3821AB5CD600F3F749 /* README.md */,
+				52C8CD2E21AB5CD500F3F749 /* WindowsEndlines */,
 			);
 			path = Lab7;
 			sourceTree = "<group>";
