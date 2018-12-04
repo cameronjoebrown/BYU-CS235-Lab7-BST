@@ -25,8 +25,8 @@ public:
     bool remove(int val);
     bool removeHelper(Node* &T, int val);
     void clear();
+    void clearHelper(Node* T);
     int traverseTree(Node* T);
-    void clearHelper(Node *T);
     
 private:
     Node* root;

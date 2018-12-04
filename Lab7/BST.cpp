@@ -110,9 +110,10 @@ int BST :: traverseTree(Node *T) {
 }
 void BST :: clear() {
     clearHelper(root);
+    root = nullptr;
 }
 
-void clearHelper(Node* T) {
+void BST :: clearHelper(Node* T) {
     if(T == nullptr) {
         return;
     }
@@ -122,10 +123,8 @@ void clearHelper(Node* T) {
     else if(T->rightChild != nullptr) {
         clearHelper(T->rightChild);
     }
-    else {
-        delete T;
-        return;
-    }
+    delete T;
+    return;
 }
 
 
