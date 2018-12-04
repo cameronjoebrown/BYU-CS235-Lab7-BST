@@ -15,7 +15,7 @@ BST :: ~BST() {
     clear();
 }
 
-Node* BST :: getRootNode() {
+NodeInterface* BST :: getRootNode() const {
     return root;
 }
 bool BST :: add(int val) {

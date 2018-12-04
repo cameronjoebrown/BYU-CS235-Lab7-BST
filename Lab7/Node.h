@@ -14,7 +14,7 @@
 
 class Node : public NodeInterface {
 public:
-    Node(int value = NULL, Node* L = nullptr, Node* R = nullptr) {
+    Node(int value, Node* L = nullptr, Node* R = nullptr) {
         data = value;
         leftChild = L;
         rightChild = R;

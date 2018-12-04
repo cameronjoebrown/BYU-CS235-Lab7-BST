@@ -19,7 +19,7 @@ class BST : public BSTInterface {
 public:
     BST();
     ~BST();
-    Node* getRootNode();
+    NodeInterface* getRootNode() const;
     bool add(int val);
     bool addHelper(Node* &T, int val);
     bool remove(int val);
