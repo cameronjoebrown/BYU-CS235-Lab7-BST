@@ -57,19 +57,19 @@ bool BST :: removeHelper(Node* &T, int val) {
         return false;
     }
     else if(val == T->data) {
-        if(T->leftChild == NULL && T->rightChild == NULL) {
+        if(T->leftChild == nullptr && T->rightChild == nullptr) {
             Node* tempNode = T;
-            T = NULL;
+            T = nullptr;
             delete tempNode;
             return true;
         }
-        if (T->rightChild != NULL && T->leftChild == NULL) {
+        if (T->rightChild != nullptr && T->leftChild == nullptr) {
             Node* tempNode = T;
             T = T->rightChild;
             delete tempNode;
             return true;
         }
-        if (T->rightChild == NULL && T->leftChild != NULL) {
+        if (T->rightChild == nullptr && T->leftChild != nullptr) {
             Node* tempNode = T;
             T = T->leftChild;
             delete tempNode;
@@ -80,9 +80,11 @@ bool BST :: removeHelper(Node* &T, int val) {
             return removeHelper(T->leftChild, T->data);
         }
     }
+    else if(val < T->data) {
+        return removeHelper(T->leftChild, val);
+    }
     else {
-        T->data = traverseTree(T->leftChild);
-        return removeHelper(T->leftChild, T->data);
+        return removeHelper(T->rightChild, val);
     }
 }
 
